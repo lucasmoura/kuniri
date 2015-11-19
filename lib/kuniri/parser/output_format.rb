@@ -104,6 +104,10 @@ module Parser
         raise NotImplementedError
       end
 
+      def aggregation_generate(pAggregation)
+        raise NotImplementedError
+      end
+
     private
 
       def write_file(pSaveTo, pFileName)
